@@ -28,6 +28,7 @@ html,body{
     position: relative;
     overflow: hidden;
     background-color:#E4E0DD;
+    scroll-behavior: smooth;
 
 }
 
