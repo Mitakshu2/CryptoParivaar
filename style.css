@@ -268,7 +268,7 @@ z-index: 10;
     font-family: montserrat;
     width: 27%;
     height: 90%;
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.562);
     border-radius: 30px;
     overflow: hidden;
     position: relative;
@@ -277,12 +277,13 @@ z-index: 10;
 .img{
     height: 50%;
     width: 100%;
-    background-color: rgb(17, 0, 0);
+    background-color: rgba(17, 0, 0, 0.747);
     border-bottom-left-radius: 700px;
     background-image:url(dogecoin.png);
-    background-position-x: 6vw;
+    background-position-x: 8vw;
+    background-position-y: 2vw;
     background-repeat: no-repeat;
-    background-size: 15vw;
+    background-size: 10vw;
     color: transparent;
     text-align: center;
     position: relative;
@@ -290,14 +291,18 @@ z-index: 10;
 }
 
 #img1{
-    background-image: url(https://bitcoin.org/img/home/bitcoin-img.svg?1716491272);
+    background-image: url(https://logos-world.net/wp-content/uploads/2020/08/Bitcoin-Logo-700x394.png);
+    background-size: 15vw;
+    background-position-x: 5vw;
+    background-position-y: 3vw;
+    
 }
 
 #img2{
     background-image: url(https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Feth-diamond-purple.7929ed26.png&w=828&q=75);
-    background-size: 8vw;
-    background-position-x:9vw ;
-    background-position-y: 1vw;
+    background-size: 6vw;
+    background-position-x:10vw ;
+    background-position-y: 2vw;
 }
 
 .price{
