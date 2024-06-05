@@ -37,18 +37,18 @@ var tl = gsap.timeline();
 
 tl
 
-.from("#loader h1", {
-  x:850,
-  duration:4,
-  // delay:1,
-  stagger:.2,
-  ease: Power3.easeInOut 
-})
+// .from("#loader h1", {
+//   x:850,
+//   duration:4,
+//   // delay:1,
+//   stagger:.2,
+//   ease: Power3.easeInOut 
+// })
 
 
 .to("#loader",{
   height:0,
-  delay:1,
+  delay:6.5,
   duration:2,
   ease: Expo.easeInOut 
 })
