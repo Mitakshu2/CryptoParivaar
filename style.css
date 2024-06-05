@@ -28,12 +28,83 @@ html,body{
     position: relative;
     overflow: hidden;
     background-color:#E4E0DD;
-    scroll-behavior: smooth;
 
 }
 
+#social{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-evenly;
+    height: 55vh;
+    width: 6vw;
+    /* background-color: red; */
+    position: fixed;
+    left: 2%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+   /* background-color: rgb(255, 255, 255); */
+   z-index: 99;
+
+
+}
+
+#social a{
+    text-decoration: none;
+    font-size: 2vw;
+    color: black;
+}
+
+.socialbutton{
+    position: relative;
+    /* background-color: red; */
+    padding-right: 1vw;
+    padding-left: 1vw;
+}
+
+.socialname{
+    position: absolute;
+    right: -10%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    height:12vh;
+    width: 12vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: montserrat;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.61);
+    color: black;
+}
+
+.socialname h2{
+    font-size: 1.5vw;
+}
+
+.socialbutton:hover .socialname{
+    top: -75%;
+    transform: translateX(95%);
+    transition: ease-in-out;
+    transition-duration: 1s;
+}
+
+.socialname:hover{
+    background-color: rgb(212, 212, 212);
+}
+.socialname:hover .socialname a{
+    color: white;
+}
+
+
+
+
 #loader{
-    /* display: none; */
+    
     height: 100vh;
     width: 100%;
     /* background-color: #111; */
@@ -49,6 +120,7 @@ html,body{
     font-size: 3vw;
     text-transform: uppercase;
     overflow: hidden;
+    /* display: none; */
 
 }
 
@@ -104,7 +176,7 @@ span{
     justify-content: space-between;
     height: 10vh;
     width: 55vw;
-    background-color: red;
+    /* background-color: red; */
     position: fixed;
     left: 50%;
     top: 8%;
