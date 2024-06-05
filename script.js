@@ -48,7 +48,7 @@ tl
 
 .to("#loader",{
   height:0,
-  delay:6.5,
+  delay:6,
   duration:2,
   ease: Expo.easeInOut 
 })
