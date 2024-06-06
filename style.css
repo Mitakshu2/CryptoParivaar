@@ -1,14 +1,14 @@
 @font-face {
     font-family: montserrat;
-    src: url(Montserrat-Black.ttf);
+    src: url(/font/Montserrat-Black.ttf);
 }
 @font-face {
     font-family: mazius;
-    src: url(Zeyada-Regular.ttf);
+    src: url(/font/);
 }
 @font-face {
     font-family: Rampart;
-    src: url(RampartOne-Regular.ttf);
+    src: url(/font/RampartOne-Regular.ttf);
 }
 
 
@@ -337,7 +337,7 @@ z-index: 10;
     width: 100%;
     background-color: rgb(73, 73, 73);
     border-bottom-left-radius: 700px;
-    background-image:url(dogecoin.png);
+    background-image:url(plan_images/dogecoin.png);
     background-position-x: 8vw;
     background-position-y: 2vw;
     background-repeat: no-repeat;
@@ -673,7 +673,7 @@ z-index: 10;
     width: 50%;
     background-color: red;
     border-radius: 20px;
-    background-image: url(right4bg.webp);
+    background-image: url(/backgrounds/left4bg.webp);
     background-size: 60vw;
     background-repeat: no-repeat;
     display: flex;
@@ -711,7 +711,7 @@ z-index: 10;
     width: 50%;
     background-color: red;
     border-radius: 20px;
-    background-image: url(rightbg.jpg);
+    background-image: url(/backgrounds/rightbg.jpg);
     background-size: 60vw;
     background-repeat: no-repeat;
     display: flex;
